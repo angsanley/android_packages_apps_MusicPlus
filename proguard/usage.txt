@@ -1,0 +1,550 @@
+android.support.v13.app.FragmentCompatICS:
+    21:21:FragmentCompatICS()
+android.support.v13.app.FragmentCompatICSMR1:
+    21:21:FragmentCompatICSMR1()
+android.support.v13.app.FragmentPagerAdapter:
+    private static final java.lang.String TAG
+    private static final boolean DEBUG
+android.support.v13.app.FragmentStatePagerAdapter:
+    private static final java.lang.String TAG
+    private static final boolean DEBUG
+android.support.v4.accessibilityservice.AccessibilityServiceInfoCompatIcs:
+    26:26:AccessibilityServiceInfoCompatIcs()
+android.support.v4.app.ActivityCompatHoneycomb:
+    27:27:ActivityCompatHoneycomb()
+    34:35:static void dump(android.app.Activity,java.lang.String,java.io.FileDescriptor,java.io.PrintWriter,java.lang.String[])
+android.support.v4.app.BackStackRecord:
+    static final java.lang.String TAG
+    static final int OP_NULL
+    static final int OP_ADD
+    static final int OP_REPLACE
+    static final int OP_REMOVE
+    static final int OP_HIDE
+    static final int OP_SHOW
+    static final int OP_DETACH
+    static final int OP_ATTACH
+    779:779:public int getTransition()
+    783:783:public int getTransitionStyle()
+android.support.v4.app.DialogFragment:
+    private static final java.lang.String SAVED_DIALOG_STATE_TAG
+    private static final java.lang.String SAVED_STYLE
+    private static final java.lang.String SAVED_THEME
+    private static final java.lang.String SAVED_CANCELABLE
+    private static final java.lang.String SAVED_SHOWS_DIALOG
+    private static final java.lang.String SAVED_BACK_STACK_ID
+android.support.v4.app.Fragment:
+    static final int INITIALIZING
+    static final int CREATED
+    static final int ACTIVITY_CREATED
+    static final int STOPPED
+    static final int STARTED
+    static final int RESUMED
+    1410:1416:android.support.v4.app.Fragment findFragmentByWho(java.lang.String)
+android.support.v4.app.FragmentActivity:
+    private static final java.lang.String TAG
+    static final java.lang.String FRAGMENTS_TAG
+    private static final int HONEYCOMB
+    static final int MSG_REALLY_STOPPED
+    static final int MSG_RESUME_PENDING
+android.support.v4.app.FragmentActivity$FragmentTag:
+    public static final int Fragment_id
+    public static final int Fragment_name
+    public static final int Fragment_tag
+    129:129:FragmentActivity$FragmentTag()
+android.support.v4.app.FragmentManagerImpl:
+    static final java.lang.String TAG
+    static final java.lang.String TARGET_REQUEST_CODE_STATE_TAG
+    static final java.lang.String TARGET_STATE_TAG
+    static final java.lang.String VIEW_STATE_TAG
+    static final java.lang.String USER_VISIBLE_HINT_TAG
+    static final int ANIM_DUR
+    public static final int ANIM_STYLE_OPEN_ENTER
+    public static final int ANIM_STYLE_OPEN_EXIT
+    public static final int ANIM_STYLE_CLOSE_ENTER
+    public static final int ANIM_STYLE_CLOSE_EXIT
+    public static final int ANIM_STYLE_FADE_ENTER
+    public static final int ANIM_STYLE_FADE_EXIT
+    1314:1322:public android.support.v4.app.Fragment findFragmentByWho(java.lang.String)
+android.support.v4.app.FragmentPagerAdapter:
+    private static final java.lang.String TAG
+    private static final boolean DEBUG
+android.support.v4.app.FragmentStatePagerAdapter:
+    private static final java.lang.String TAG
+    private static final boolean DEBUG
+android.support.v4.app.ListFragment:
+    static final int INTERNAL_EMPTY_ID
+    static final int INTERNAL_PROGRESS_CONTAINER_ID
+    static final int INTERNAL_LIST_CONTAINER_ID
+android.support.v4.app.LoaderManagerImpl:
+    static final java.lang.String TAG
+    boolean mRetainingStarted
+android.support.v4.app.NavUtils:
+    private static final java.lang.String TAG
+android.support.v4.app.NavUtilsJB:
+    23:23:NavUtilsJB()
+android.support.v4.app.NotificationCompatHoneycomb:
+    25:25:NotificationCompatHoneycomb()
+android.support.v4.app.NotificationCompatIceCreamSandwich:
+    25:25:NotificationCompatIceCreamSandwich()
+android.support.v4.app.ShareCompat$IntentReader:
+    private static final java.lang.String TAG
+android.support.v4.app.ShareCompatICS:
+    private static final java.lang.String HISTORY_FILENAME_PREFIX
+    25:25:ShareCompatICS()
+android.support.v4.app.ShareCompatJB:
+    21:21:ShareCompatJB()
+android.support.v4.app.TaskStackBuilder:
+    private static final java.lang.String TAG
+android.support.v4.app.TaskStackBuilder$TaskStackBuilderImplJellybean
+android.support.v4.app.TaskStackBuilderJellybean
+android.support.v4.content.AsyncTaskLoader:
+    static final java.lang.String TAG
+    static final boolean DEBUG
+android.support.v4.content.ContextCompatHoneycomb:
+    25:25:ContextCompatHoneycomb()
+android.support.v4.content.ContextCompatJellybean:
+    23:23:ContextCompatJellybean()
+android.support.v4.content.IntentCompatHoneycomb:
+    22:22:IntentCompatHoneycomb()
+android.support.v4.content.IntentCompatIcsMr1:
+    21:21:IntentCompatIcsMr1()
+android.support.v4.content.LocalBroadcastManager:
+    private static final java.lang.String TAG
+    private static final boolean DEBUG
+    static final int MSG_EXEC_PENDING_BROADCASTS
+android.support.v4.content.ModernAsyncTask:
+    private static final java.lang.String LOG_TAG
+    private static final int CORE_POOL_SIZE
+    private static final int MAXIMUM_POOL_SIZE
+    private static final int KEEP_ALIVE
+    private static final int MESSAGE_POST_RESULT
+    private static final int MESSAGE_POST_PROGRESS
+    106:107:public static void init()
+    111:112:public static void setDefaultExecutor(java.util.concurrent.Executor)
+    169:169:public final android.support.v4.content.ModernAsyncTask$Status getStatus()
+    321:321:public final java.lang.Object get()
+    341:341:public final java.lang.Object get(long,java.util.concurrent.TimeUnit)
+    371:371:public final varargs android.support.v4.content.ModernAsyncTask execute(java.lang.Object[])
+    433:434:public static void execute(java.lang.Runnable)
+    451:455:protected final varargs void publishProgress(java.lang.Object[])
+android.support.v4.net.ConnectivityManagerCompatGingerbread:
+    33:33:ConnectivityManagerCompatGingerbread()
+android.support.v4.net.ConnectivityManagerCompatHoneycombMR2:
+    35:35:ConnectivityManagerCompatHoneycombMR2()
+android.support.v4.net.ConnectivityManagerCompatJellyBean:
+    24:24:ConnectivityManagerCompatJellyBean()
+android.support.v4.os.ParcelableCompatCreatorHoneycombMR2Stub:
+    22:22:ParcelableCompatCreatorHoneycombMR2Stub()
+android.support.v4.util.TimeUtils:
+    private static final int SECONDS_PER_MINUTE
+    private static final int SECONDS_PER_HOUR
+    private static final int SECONDS_PER_DAY
+android.support.v4.view.AccessibilityDelegateCompatIcs:
+    28:30:AccessibilityDelegateCompatIcs()
+android.support.v4.view.AccessibilityDelegateCompatJellyBean:
+    30:32:AccessibilityDelegateCompatJellyBean()
+android.support.v4.view.GestureDetectorCompat$GestureDetectorCompatImplBase:
+    private static final int SHOW_PRESS
+    private static final int LONG_PRESS
+    private static final int TAP
+android.support.v4.view.KeyEventCompat$BaseKeyEventVersionImpl:
+    private static final int META_MODIFIER_MASK
+    private static final int META_ALL_MASK
+android.support.v4.view.KeyEventCompatHoneycomb:
+    24:24:KeyEventCompatHoneycomb()
+android.support.v4.view.MenuItemCompatHoneycomb:
+    25:25:MenuItemCompatHoneycomb()
+android.support.v4.view.MotionEventCompatEclair:
+    24:24:MotionEventCompatEclair()
+android.support.v4.view.PagerTabStrip:
+    private static final java.lang.String TAG
+    private static final int INDICATOR_HEIGHT
+    private static final int MIN_PADDING_BOTTOM
+    private static final int TAB_PADDING
+    private static final int TAB_SPACING
+    private static final int MIN_TEXT_SPACING
+    private static final int FULL_UNDERLINE_HEIGHT
+    private static final int MIN_STRIP_HEIGHT
+android.support.v4.view.PagerTitleStrip:
+    private static final java.lang.String TAG
+    private static final float SIDE_ALPHA
+    private static final int TEXT_SPACING
+android.support.v4.view.PagerTitleStripIcs:
+    26:31:PagerTitleStripIcs()
+android.support.v4.view.PagerTitleStripIcs$SingleLineAllCapsTransform:
+    private static final java.lang.String TAG
+android.support.v4.view.VelocityTrackerCompatHoneycomb:
+    24:24:VelocityTrackerCompatHoneycomb()
+android.support.v4.view.ViewCompat:
+    private static final long FAKE_FRAME_TIME
+android.support.v4.view.ViewCompatGingerbread:
+    21:21:ViewCompatGingerbread()
+android.support.v4.view.ViewCompatHC:
+    23:23:ViewCompatHC()
+android.support.v4.view.ViewCompatICS:
+    27:27:ViewCompatICS()
+android.support.v4.view.ViewConfigurationCompatFroyo:
+    24:24:ViewConfigurationCompatFroyo()
+android.support.v4.view.ViewGroupCompatIcs:
+    26:26:ViewGroupCompatIcs()
+android.support.v4.view.ViewPager:
+    private static final java.lang.String TAG
+    private static final boolean DEBUG
+    private static final boolean USE_CACHE
+    private static final int DEFAULT_OFFSCREEN_PAGES
+    private static final int MAX_SETTLE_DURATION
+    private static final int MIN_DISTANCE_FOR_FLING
+    private static final int DEFAULT_GUTTER_SIZE
+    private boolean mIgnoreGutter
+    private static final int INVALID_POINTER
+    private static final int CLOSE_ENOUGH
+    private static final int DRAW_ORDER_DEFAULT
+    private static final int DRAW_ORDER_FORWARD
+    private static final int DRAW_ORDER_REVERSE
+    747:748:void smoothScrollTo(int,int)
+android.support.v4.view.accessibility.AccessibilityEventCompatIcs:
+    25:25:AccessibilityEventCompatIcs()
+android.support.v4.view.accessibility.AccessibilityManagerCompatIcs:
+    28:30:AccessibilityManagerCompatIcs()
+android.support.v4.view.accessibility.AccessibilityNodeInfoCompatIcs:
+    28:28:AccessibilityNodeInfoCompatIcs()
+android.support.v4.view.accessibility.AccessibilityNodeInfoCompatJellyBean:
+    26:26:AccessibilityNodeInfoCompatJellyBean()
+android.support.v4.view.accessibility.AccessibilityNodeProviderCompatJellyBean:
+    28:29:AccessibilityNodeProviderCompatJellyBean()
+android.support.v4.view.accessibility.AccessibilityRecordCompatIcs:
+    28:28:AccessibilityRecordCompatIcs()
+android.support.v4.view.accessibility.AccessibilityRecordCompatIcsMr1:
+    24:24:AccessibilityRecordCompatIcsMr1()
+android.support.v4.view.accessibility.AccessibilityRecordCompatJellyBean:
+    25:25:AccessibilityRecordCompatJellyBean()
+android.support.v4.widget.EdgeEffectCompatIcs:
+    28:28:EdgeEffectCompatIcs()
+android.support.v4.widget.ScrollerCompat
+android.support.v4.widget.ScrollerCompat$ScrollerCompatImplIcs
+android.support.v4.widget.ScrollerCompatIcs
+android.support.v4.widget.SearchViewCompat:
+    91:93:private SearchViewCompat(android.content.Context)
+android.support.v4.widget.SearchViewCompatHoneycomb:
+    27:29:SearchViewCompatHoneycomb()
+com.andrew.apolloMod.IApolloService$Stub:
+    private static final java.lang.String DESCRIPTOR
+    static final int TRANSACTION_openFile
+    static final int TRANSACTION_open
+    static final int TRANSACTION_getIdFromPath
+    static final int TRANSACTION_getQueuePosition
+    static final int TRANSACTION_isPlaying
+    static final int TRANSACTION_stop
+    static final int TRANSACTION_pause
+    static final int TRANSACTION_play
+    static final int TRANSACTION_prev
+    static final int TRANSACTION_next
+    static final int TRANSACTION_duration
+    static final int TRANSACTION_position
+    static final int TRANSACTION_seek
+    static final int TRANSACTION_getTrackName
+    static final int TRANSACTION_getAlbumName
+    static final int TRANSACTION_getAlbumId
+    static final int TRANSACTION_getAlbumBitmap
+    static final int TRANSACTION_getArtistName
+    static final int TRANSACTION_getArtistId
+    static final int TRANSACTION_enqueue
+    static final int TRANSACTION_getQueue
+    static final int TRANSACTION_setQueuePosition
+    static final int TRANSACTION_getPath
+    static final int TRANSACTION_getAudioId
+    static final int TRANSACTION_setShuffleMode
+    static final int TRANSACTION_notifyChange
+    static final int TRANSACTION_getShuffleMode
+    static final int TRANSACTION_removeTracks
+    static final int TRANSACTION_removeTrack
+    static final int TRANSACTION_setRepeatMode
+    static final int TRANSACTION_getRepeatMode
+    static final int TRANSACTION_getMediaMountedCount
+    static final int TRANSACTION_getAudioSessionId
+    static final int TRANSACTION_addToFavorites
+    static final int TRANSACTION_removeFromFavorites
+    static final int TRANSACTION_isFavorite
+    static final int TRANSACTION_toggleFavorite
+com.andrew.apolloMod.IApolloService$Stub$Proxy:
+    382:382:public java.lang.String getInterfaceDescriptor()
+com.andrew.apolloMod.activities.AudioPlayerHolder:
+    private static final int FAVORITE
+    private static final int SEARCH
+    private static final int EFFECTS_PANEL
+com.andrew.apolloMod.activities.PlayExternal:
+    private static final java.lang.String TAG
+com.andrew.apolloMod.app.widgets.AppWidget11:
+    static final java.lang.String TAG
+com.andrew.apolloMod.helpers.lastfm.Album:
+    54:56:private Album(java.lang.String,java.lang.String,java.lang.String,int,int,boolean,java.lang.String)
+com.andrew.apolloMod.helpers.lastfm.Caller:
+    private static final java.lang.String PARAM_API_KEY
+    private static final java.lang.String DEFAULT_API_ROOT
+com.andrew.apolloMod.helpers.lastfm.Session:
+    114:119:static com.andrew.apolloMod.helpers.lastfm.Session sessionFromElement(com.andrew.apolloMod.helpers.DomElement,java.lang.String,java.lang.String)
+com.andrew.apolloMod.helpers.utils.ImageUtils:
+    private static final java.lang.String IMAGE_EXTENSION
+com.andrew.apolloMod.service.ApolloService:
+    private static final int TRACK_ENDED
+    private static final int RELEASE_WAKELOCK
+    private static final int SERVER_DIED
+    private static final int FOCUSCHANGE
+    private static final int FADEDOWN
+    private static final int FADEUP
+    private static final int TRACK_WENT_TO_NEXT
+    private static final int MAX_HISTORY_SIZE
+    private static final java.lang.String LOGTAG
+    private static final int IDCOLIDX
+    private static final int PODCASTCOLIDX
+    private static final int BOOKMARKCOLIDX
+    private static final int IDLE_DELAY
+com.andrew.apolloMod.service.MediaButtonIntentReceiver:
+    private static final int MSG_LONGPRESS_TIMEOUT
+    private static final int LONG_PRESS_DELAY
+com.andrew.apolloMod.ui.fragments.AudioPlayerFragment:
+    private static final int REFRESH
+    private static final int UPDATEINFO
+com.andrew.apolloMod.ui.fragments.list.PlaylistsFragment:
+    private static final int PLAY_SELECTION
+    private static final int DELETE_PLAYLIST
+    private static final int RENAME_PLAYLIST
+com.androidquery.callback.AbstractAjaxCallback:
+    private static final java.lang.String lineEnd
+    private static final java.lang.String twoHyphens
+    private static final java.lang.String boundary
+com.androidquery.callback.BitmapAjaxCallback:
+    private static final int FADE_DUR
+com.androidquery.service.MarketService:
+    private boolean fetch
+    private boolean completed
+    private static final java.lang.String SKIP_VERSION
+    private static final java.lang.String BULLET
+    57:57:static synthetic boolean access$1(com.androidquery.service.MarketService)
+    57:57:static synthetic void access$2(com.androidquery.service.MarketService,boolean)
+    47:47:static synthetic com.androidquery.AQuery access$3(com.androidquery.service.MarketService)
+    53:53:static synthetic int access$4(com.androidquery.service.MarketService)
+    58:58:static synthetic boolean access$5(com.androidquery.service.MarketService)
+    58:58:static synthetic void access$6(com.androidquery.service.MarketService,boolean)
+    53:53:static synthetic void access$7(com.androidquery.service.MarketService,int)
+    218:218:static synthetic java.lang.String access$8(com.androidquery.service.MarketService)
+com.androidquery.service.MarketService$Handler:
+    435:468:public void marketCb(java.lang.String,org.json.JSONObject,com.androidquery.callback.AjaxStatus)
+    472:477:private void cb(java.lang.String,org.json.JSONObject,com.androidquery.callback.AjaxStatus)
+    482:495:public void detailCb(java.lang.String,java.lang.String,com.androidquery.callback.AjaxStatus)
+com.androidquery.util.AQUtility:
+    private static final int IO_BUFFER_SIZE
+com.androidquery.util.BitmapCache:
+    private static final long serialVersionUID
+com.androidquery.util.WebImage:
+    private static final java.lang.String PREF_FILE
+    private static final java.lang.String DOUBLE_TAP_TOAST_COUNT
+com.squareup.okhttp.ConnectionPool:
+    private static final int MAX_CONNECTIONS_TO_CLEANUP
+    private static final long DEFAULT_KEEP_ALIVE_DURATION_MS
+    129:130:java.util.List getConnections()
+    141:148:private void waitForCleanupCallableToRun()
+com.squareup.okhttp.ConnectionPool$2
+com.squareup.okhttp.HttpResponseCache:
+    private static final int VERSION
+    private static final int ENTRY_METADATA
+    private static final int ENTRY_BODY
+    private static final int ENTRY_COUNT
+com.squareup.okhttp.internal.DiskLruCache:
+    static final java.lang.String JOURNAL_FILE
+    static final java.lang.String JOURNAL_FILE_TEMP
+    static final java.lang.String JOURNAL_FILE_BACKUP
+    static final java.lang.String MAGIC
+    static final java.lang.String VERSION_1
+    static final long ANY_SEQUENCE_NUMBER
+    private static final java.lang.String CLEAN
+    private static final java.lang.String DIRTY
+    private static final java.lang.String REMOVE
+    private static final java.lang.String READ
+com.squareup.okhttp.internal.StrictLineReader:
+    private static final byte CR
+    private static final byte LF
+com.squareup.okhttp.internal.http.AbstractHttpOutputStream
+com.squareup.okhttp.internal.http.HeaderParser:
+    110:111:private HeaderParser()
+com.squareup.okhttp.internal.http.HttpDate:
+    80:81:private HttpDate()
+com.squareup.okhttp.internal.http.HttpResponseCache:
+    private static final int VERSION
+    private static final int ENTRY_METADATA
+    private static final int ENTRY_BODY
+    private static final int ENTRY_COUNT
+com.squareup.okhttp.internal.http.HttpTransport:
+    private static final int DISCARD_STREAM_TIMEOUT_MILLIS
+com.squareup.okhttp.internal.http.HttpTransport$ChunkedInputStream:
+    private static final int NO_CHUNK_YET
+com.squareup.okhttp.internal.http.HttpURLConnectionImpl:
+    static final int HTTP_TEMP_REDIRECT
+    private static final int MAX_REDIRECTS
+    private static final int MAX_REPLAY_BUFFER_LENGTH
+com.squareup.okhttp.internal.http.ResponseHeaders:
+    private static final java.lang.String SENT_MILLIS
+    private static final java.lang.String RECEIVED_MILLIS
+    static final java.lang.String RESPONSE_SOURCE
+com.squareup.okhttp.internal.http.RouteSelector:
+    private static final int TLS_MODE_MODERN
+    private static final int TLS_MODE_COMPATIBLE
+    private static final int TLS_MODE_NULL
+com.squareup.okhttp.internal.spdy.Settings:
+    static final int DEFAULT_INITIAL_WINDOW_SIZE
+    static final int FLAG_CLEAR_PREVIOUSLY_PERSISTED_SETTINGS
+    static final int PERSIST_VALUE
+    static final int PERSISTED
+    static final int UPLOAD_BANDWIDTH
+    static final int DOWNLOAD_BANDWIDTH
+    static final int ROUND_TRIP_TIME
+    static final int MAX_CONCURRENT_STREAMS
+    static final int CURRENT_CWND
+    static final int DOWNLOAD_RETRANS_RATE
+    static final int INITIAL_WINDOW_SIZE
+    static final int CLIENT_CERTIFICATE_VECTOR_SIZE
+    static final int COUNT
+    106:106:int size()
+    110:111:int getUploadBandwidth(int)
+    115:116:int getDownloadBandwidth(int)
+    120:121:int getRoundTripTime(int)
+    125:126:int getMaxConcurrentStreams(int)
+    130:131:int getCurrentCwnd(int)
+    135:136:int getDownloadRetransRate(int)
+    145:146:int getClientCertificateVectorSize(int)
+com.squareup.okhttp.internal.spdy.SpdyConnection:
+    static final int FLAG_FIN
+    static final int FLAG_UNIDIRECTIONAL
+    static final int TYPE_DATA
+    static final int TYPE_SYN_STREAM
+    static final int TYPE_SYN_REPLY
+    static final int TYPE_RST_STREAM
+    static final int TYPE_SETTINGS
+    static final int TYPE_NOOP
+    static final int TYPE_PING
+    static final int TYPE_GOAWAY
+    static final int TYPE_HEADERS
+    static final int TYPE_WINDOW_UPDATE
+    static final int TYPE_CREDENTIAL
+    static final int VERSION
+    static final int GOAWAY_OK
+    static final int GOAWAY_PROTOCOL_ERROR
+    static final int GOAWAY_INTERNAL_ERROR
+com.squareup.okhttp.internal.spdy.SpdyStream:
+    private static final int DATA_FRAME_HEADER_LENGTH
+    373:373:int getPriority()
+    377:377:int getSlot()
+com.squareup.okhttp.internal.spdy.SpdyWriter:
+    76:85:public synchronized void headers(int,int,java.util.List)
+    99:104:public synchronized void data(int,int,byte[])
+    118:131:public synchronized void settings(int,com.squareup.okhttp.internal.spdy.Settings)
+com.winsontan520.wversionmanager.library.WVersionManager:
+    private static final java.lang.String TAG
+    private static final int MODE_CHECK_VERSION
+    private static final int MODE_ASK_FOR_RATE
+org.apache.cordova.AudioPlayer:
+    private static final java.lang.String LOG_TAG
+org.apache.cordova.BatteryListener:
+    private static final java.lang.String LOG_TAG
+org.apache.cordova.CameraLauncher:
+    private static final int DATA_URL
+    private static final int FILE_URI
+    private static final int NATIVE_URI
+    private static final int PHOTOLIBRARY
+    private static final int CAMERA
+    private static final int SAVEDPHOTOALBUM
+    private static final int PICTURE
+    private static final int VIDEO
+    private static final int ALLMEDIA
+    private static final int JPEG
+    private static final int PNG
+    private static final java.lang.String GET_PICTURE
+    private static final java.lang.String GET_VIDEO
+    private static final java.lang.String GET_All
+    private static final java.lang.String LOG_TAG
+org.apache.cordova.Capture:
+    private static final java.lang.String VIDEO_3GPP
+    private static final java.lang.String VIDEO_MP4
+    private static final java.lang.String AUDIO_3GPP
+    private static final java.lang.String IMAGE_JPEG
+    private static final int CAPTURE_AUDIO
+    private static final int CAPTURE_IMAGE
+    private static final int CAPTURE_VIDEO
+    private static final java.lang.String LOG_TAG
+    private static final int CAPTURE_INTERNAL_ERR
+    private static final int CAPTURE_NO_MEDIA_FILES
+org.apache.cordova.CompassListener:
+    int accuracy
+org.apache.cordova.ContactAccessorSdk5:
+    private static final long MAX_PHOTO_SIZE
+    private static final java.lang.String EMAIL_REGEXP
+    2139:2171:private java.lang.String getImType(int)
+org.apache.cordova.ContactManager:
+    private static final java.lang.String LOG_TAG
+org.apache.cordova.CordovaActivity:
+    private int lastRequestCode
+    private java.lang.Object responseCode
+    private android.content.Intent lastIntent
+    private java.lang.Object lastResponseCode
+    private java.lang.Object LOG_TAG
+org.apache.cordova.CordovaChromeClient:
+    private static final java.lang.String LOG_TAG
+org.apache.cordova.CordovaResourceApi:
+    private static final java.lang.String LOG_TAG
+org.apache.cordova.CordovaWebView$Level16Apis:
+    864:864:private CordovaWebView$Level16Apis()
+org.apache.cordova.CordovaWebViewClient:
+    private static final java.lang.String TAG
+    private static final java.lang.String CORDOVA_EXEC_URL_PREFIX
+    93:106:private void handleExecUrl(java.lang.String)
+org.apache.cordova.DirectoryManager:
+    private static final java.lang.String LOG_TAG
+org.apache.cordova.FileHelper:
+    private static final java.lang.String LOG_TAG
+    private static final java.lang.String _DATA
+org.apache.cordova.FileTransfer:
+    private static final java.lang.String LOG_TAG
+    private static final java.lang.String LINE_START
+    private static final java.lang.String LINE_END
+    private static final java.lang.String BOUNDARY
+    private static final int MAX_BUFFER_SIZE
+org.apache.cordova.FileUtils:
+    private static final java.lang.String LOG_TAG
+org.apache.cordova.GlobalizationError:
+    private static final long serialVersionUID
+org.apache.cordova.IceCreamCordovaWebViewClient:
+    private static final java.lang.String TAG
+org.apache.cordova.InAppBrowser:
+    private static final java.lang.String NULL
+    private static final java.lang.String SELF
+    private static final java.lang.String SYSTEM
+    private static final java.lang.String EXIT_EVENT
+    private static final java.lang.String LOCATION
+    private static final java.lang.String HIDDEN
+    private static final java.lang.String LOAD_START_EVENT
+    private static final java.lang.String LOAD_STOP_EVENT
+    private static final java.lang.String LOAD_ERROR_EVENT
+    private static final java.lang.String CLOSE_BUTTON_CAPTION
+    private static final java.lang.String CLEAR_ALL_CACHE
+    private static final java.lang.String CLEAR_SESSION_CACHE
+org.apache.cordova.LinearLayoutSoftKeyboardDetect:
+    private static final java.lang.String TAG
+org.apache.cordova.NativeToJsMessageQueue:
+    private static final java.lang.String LOG_TAG
+    private static final int DEFAULT_BRIDGE_MODE
+    private static final boolean FORCE_ENCODE_USING_EVAL
+    static final boolean ENABLE_LOCATION_CHANGE_EXEC_MODE
+    static final boolean DISABLE_EXEC_CHAINING
+org.apache.cordova.NativeToJsMessageQueue$PrivateApiBridgeMode:
+    private static final int EXECUTE_JS
+org.apache.cordova.NetworkManager:
+    private static final java.lang.String LOG_TAG
+org.apache.cordova.Storage:
+    private static final java.lang.String ALTER
+    private static final java.lang.String CREATE
+    private static final java.lang.String DROP
+    private static final java.lang.String TRUNCATE
+org.apache.cordova.api.CallbackContext:
+    private static final java.lang.String LOG_TAG
+org.apache.cordova.api.LegacyContext:
+    private static final java.lang.String LOG_TAG

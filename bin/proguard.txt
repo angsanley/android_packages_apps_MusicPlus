@@ -1,0 +1,76 @@
+# view res/layout/audio_player_browser.xml #generated:9
+# view res/layout/library_browser.xml #generated:11
+# view res/layout/track_browser.xml #generated:10
+-keep class android.support.v4.view.ViewPager { <init>(...); }
+
+# view AndroidManifest.xml #generated:80
+-keep class com.andrew.apolloMod.activities.AudioPlayerHolder { <init>(...); }
+
+# view AndroidManifest.xml #generated:58
+-keep class com.andrew.apolloMod.activities.MusicLibrary { <init>(...); }
+
+# view AndroidManifest.xml #generated:107
+-keep class com.andrew.apolloMod.activities.PlayExternal { <init>(...); }
+
+# view AndroidManifest.xml #generated:40
+-keep class com.andrew.apolloMod.activities.QueryBrowserActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:143
+-keep class com.andrew.apolloMod.activities.QuickQueue { <init>(...); }
+
+# view AndroidManifest.xml #generated:129
+-keep class com.andrew.apolloMod.activities.TracksBrowser { <init>(...); }
+
+# view AndroidManifest.xml #generated:185
+-keep class com.andrew.apolloMod.app.widgets.AppWidget11 { <init>(...); }
+
+# view AndroidManifest.xml #generated:197
+-keep class com.andrew.apolloMod.app.widgets.AppWidget41 { <init>(...); }
+
+# view AndroidManifest.xml #generated:209
+-keep class com.andrew.apolloMod.app.widgets.AppWidget42 { <init>(...); }
+
+# view AndroidManifest.xml #generated:157
+-keep class com.andrew.apolloMod.menu.PlaylistDialog { <init>(...); }
+
+# view AndroidManifest.xml #generated:173
+-keep class com.andrew.apolloMod.menu.PlaylistPicker { <init>(...); }
+
+# view AndroidManifest.xml #generated:152
+-keep class com.andrew.apolloMod.preferences.SettingsHolder { <init>(...); }
+
+# view res/xml/settings.xml #generated:14
+-keep class com.andrew.apolloMod.preferences.ThemePreview { <init>(...); }
+
+# view AndroidManifest.xml #generated:228
+-keep class com.andrew.apolloMod.service.ApolloService { <init>(...); }
+
+# view AndroidManifest.xml #generated:221
+-keep class com.andrew.apolloMod.service.MediaButtonIntentReceiver { <init>(...); }
+
+# view res/layout/library_browser.xml #generated:22
+# view res/layout/track_browser.xml #generated:23
+-keep class com.andrew.apolloMod.ui.fragments.BottomActionBarFragment { <init>(...); }
+
+# view res/layout/bottom_action_bar.xml #generated:17
+-keep class com.andrew.apolloMod.ui.widgets.BottomActionBar { <init>(...); }
+
+# view res/layout/audio_controls.xml #generated:53
+# view res/layout/audio_controls.xml #generated:64
+-keep class com.andrew.apolloMod.ui.widgets.RepeatingImageButton { <init>(...); }
+
+# view res/layout/library_browser.xml #generated:6
+-keep class com.andrew.apolloMod.ui.widgets.ScrollableTabView { <init>(...); }
+
+# view res/layout/audio_player.xml #generated:19
+-keep class com.andrew.apolloMod.ui.widgets.VisualizerView { <init>(...); }
+
+# view AndroidManifest.xml #generated:73
+-keep class id.angsanley.musicplus.cordovaactivity { <init>(...); }
+
+# onClick res/layout/theme_preview.xml #generated:22
+-keepclassmembers class * { *** applyTheme(...); }
+
+# onClick res/layout/theme_preview.xml #generated:29
+-keepclassmembers class * { *** getThemes(...); }
+
